@@ -1,0 +1,165 @@
+* {
+  font-weight: normal;
+  color: white;
+  margin: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  height: 100%;
+}
+
+h1 {
+  text-align: right;
+  font-weight: bold;
+}
+
+.right-contents,
+.header {
+  position: absolute;
+  top: 0;
+  right:0;
+  margin-top: 10px;
+  margin-right: 10px;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+.left-buttons,
+.left-icons {
+  display: flex;
+  width: 420px;
+
+  justify-content: space-between;
+}
+
+.left-icons {
+  width: 320px;
+  padding-left: 15px;
+}
+
+.header {
+  margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 10px;
+  font-size: 25px;
+  text-align: right;
+}
+
+.top-bar {
+  position:absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #7F7B82;
+  height: 100px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+h6 {
+    color: #212121;
+    padding: 0px 0px 20px 20px;
+}
+h7,
+h8,
+h9 {
+  padding: 20px;
+  color: #212121;
+  font-weight: bold;
+}
+
+h9 {
+  padding: 20px;
+  font-size: 25px;
+  padding-bottom: 5px;
+}
+
+.grid {
+  border: 2px black;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(4, 250px);
+  grid-template-rows: repeat(2, 380px);
+  size: 80px;
+  grid-gap: 10px;
+  padding: 0px;
+  color: #28D7FE;
+  cursor: pointer;
+}
+
+p {
+  color: #757575;
+  padding: 20px 0px 0px 20px;
+  font-size: 15px;
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-container .box-img {
+  display: block
+}
+
+.img-container .text-on-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 75px;
+  padding-left: 12px;
+}
+
+.img-container .stars-on-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 75px;
+  padding-right: 12px;
+}
+
+.text-box {
+  font-weight: bold;
+  padding: 5px;
+  background: #F8BBD0;
+  display: block;
+  height: 45px;
+  width: 210px;
+
+}
+
+.text-box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-img {
+  margin: -242px 0px 0px 0px;
+}
+
+.layer-0 {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+}
+
+.grid-contents{
+  background-color: #E8E8E8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-top: 100px;
+  width: 100%;
+}
